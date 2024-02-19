@@ -39,11 +39,91 @@ section .balance {
   border-radius: 8px;
   background-image: url('../images/logo.svg');
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right 20px center;
   height: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 20px;
+  justify-content: space-between;
+  padding: 25px;
   color: var(--Verypaleorange);
+  margin-bottom: 20px;
+}
+
+section .balance p {
+  font-size: 16px;
+}
+
+section .balance h4 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+section .container {
+  background-color: var(--Verypaleorange);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+section .container h4 {
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--Darkbrown);
+}
+
+section .container .week-containers {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0 20px;
+}
+
+section .container .week-containers .day {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+section .container .week-containers .day .bar {
+  height: 100%;
+  background-color: var(--Softred);
+  width: 35px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+section .container .week-containers .day .bar.mon {
+  height: 35%;
+}
+
+section .container .week-containers .day .bar.tue {
+  height: 60%;
+}
+
+section .container .week-containers .day .bar.wed {
+  background-color: var(--Cyan);
+}
+
+section .container .week-containers .day .bar.thu {
+  height: 50%;
+}
+
+section .container .week-containers .day .bar.fri {
+  height: 40%;
+}
+section .container .week-containers .day .bar.sat {
+  height: 70%;
+}
+
+section .container .week-containers .day .bar.sun {
+  height: 45%;
+}
+
+section .container .week-containers .day span {
+  color: var(--Mediumbrown);
+}
+
+hr {
+  border: solid 0.5px var(--Mediumbrown);
+  margin-bottom: 20px;
 }
