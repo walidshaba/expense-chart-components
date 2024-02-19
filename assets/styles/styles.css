@@ -24,19 +24,26 @@
 }
 
 body {
-  width: 100%;
-  height: 100%;
-}
-
-main {
-  width: 100vw;
-  height: 100vh;
   background-color: var(--Cream);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 60px 10px 0px;
 }
 
-main section {
-  width: 90vw;
+section {
+  width: 100%;
+  height: 500px;
+}
+
+section .balance {
+  width: 100%;
+  background-color: var(--Softred);
+  border-radius: 8px;
+  background-image: url('../images/logo.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  color: var(--Verypaleorange);
 }
