@@ -122,8 +122,19 @@ section .container .week-containers .day .bar.sun {
 section .container .week-containers .day span {
   color: var(--Mediumbrown);
 }
+section .container .week-containers .day .hover {
+  display: none;
+  background-color: var(--Darkbrown);
+  color: var(--Cream);
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
 
-hr {
+section .container .week-containers .day:hover .hover{
+  display: unset;
+} hr {
   border: solid 0.5px var(--Mediumbrown);
   margin-bottom: 20px;
 }
